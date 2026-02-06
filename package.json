@@ -1,0 +1,30 @@
+{
+  "name": "clawpatrol-soc",
+  "version": "1.0.0",
+  "description": "OpenClaw SOC monitoring setup with RunReveal integration",
+  "main": "index.js",
+  "scripts": {
+    "monitor": "node monitor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clawpatrol/clawpatrol-soc.git"
+  },
+  "keywords": [
+    "openclaw",
+    "soc",
+    "monitoring",
+    "runreveal",
+    "security"
+  ],
+  "author": "ClawPatrol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clawpatrol/clawpatrol-soc/issues"
+  },
+  "homepage": "https://github.com/clawpatrol/clawpatrol-soc#readme",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
